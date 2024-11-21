@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+}
+
+.coctailBlock--img-displayed{
+    width: 360px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.coctailBlock{
+    /* flex: 33.33%; */
+    width: 360px;
+    height: 472px;
+    padding: 5px;
+    text-align: center;
+}   
+
+.main--header{
+    text-align: center;
+}
+
+.main--content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    width: 1440;
+}
